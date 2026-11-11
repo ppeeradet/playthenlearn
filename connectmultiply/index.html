@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connect Multiply วิธีเล่น · เล่นแล้วรู้</title>
+<meta name="description" content="วิธีเล่นบอร์ดเกม Connect Multiply เกมต่อแถวด้วยสูตรคูณ ออกแบบโดยแบมแบม ดูคลิปสอนเล่นและดาวน์โหลดคู่มือ">
+<link rel="canonical" href="https://ppeeradet.github.io/playthenlearn/connectmultiply/">
+<link rel="alternate" hreflang="th" href="https://ppeeradet.github.io/playthenlearn/connectmultiply/">
+<link rel="alternate" hreflang="en" href="https://ppeeradet.github.io/playthenlearn/connectmultiply/en/">
+<meta property="og:title" content="Connect Multiply – เกมต่อแถวด้วยสูตรคูณ | วิธีเล่น">
+<meta property="og:description" content="วิธีเล่นบอร์ดเกม Connect Multiply เกมต่อแถวด้วยสูตรคูณ ออกแบบโดยแบมแบม ดูคลิปสอนเล่นและดาวน์โหลดคู่มือ">
+<meta property="og:image" content="https://ppeeradet.github.io/playthenlearn/assets/connectmultiply-og.jpg">
+<link rel="icon" href="../assets/favicon-48.png">
+<link rel="apple-touch-icon" href="../assets/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Kanit:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0E1E4A;--ink:#2E2A5A;--mute:#6F69A3;--pink:#F05A8C;--orange:#FF8A3D;--gold:#F2B705;--green:#3BBF7A;--sky:#22A9D6;--indigo:#6C6CF0;--purple:#B35CE0;--line:#E6DEFF}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Kanit,system-ui,sans-serif;color:var(--ink);background:#FBF9FF;line-height:1.55}
+.en body,html[lang=en] body{font-family:Nunito,system-ui,sans-serif}
+.top{background:var(--navy);padding:12px 16px}
+.top .in{max-width:880px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.top img{height:38px;width:auto;display:block}
+.top nav{display:flex;gap:8px;align-items:center}
+.top a{color:#C9D6F5;text-decoration:none;font-size:14px}
+.top a.sw{border:1px solid rgba(255,255,255,.35);border-radius:99px;padding:3px 12px;color:#fff;font-weight:600}
+.hero{background:linear-gradient(160deg,#FFE9F3 0%,#F1EAFF 55%,#E2F5FF 100%);padding:22px 16px 34px}
+.hero .in{max-width:880px;margin:0 auto;display:flex;gap:20px;align-items:center}
+.hero .cover{width:120px;flex:none;border-radius:12px;box-shadow:0 10px 24px rgba(46,42,90,.25);border:3px solid #fff}
+.kicker{color:var(--purple);font-size:13px;font-weight:700;letter-spacing:.08em}
+h1{font-family:Fredoka,Kanit,sans-serif;font-size:38px;line-height:1.05;font-weight:700;margin:2px 0;background:linear-gradient(90deg,var(--pink),var(--orange),var(--gold),var(--green),var(--sky),var(--indigo),var(--purple));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:19px;font-weight:700;color:var(--ink)}
+.by{font-size:15px;color:var(--mute);margin-top:2px}.by b{color:var(--pink)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chip{background:#fff;border:1px solid var(--line);border-radius:99px;padding:3px 12px;font-size:14px;font-weight:600;color:var(--ink)}
+main{max-width:880px;margin:0 auto;padding:0 16px 40px}
+.video{margin-top:-18px;position:relative;aspect-ratio:16/9;border-radius:16px;overflow:hidden;box-shadow:0 12px 30px rgba(46,42,90,.25);background:#000}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 6px}
+.btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;border-radius:12px;padding:12px 18px;min-height:48px;font-size:15px}
+.btn.primary{background:var(--pink);color:#fff;box-shadow:0 3px 0 #C23A6A}
+.btn.ghost{border:2px solid var(--line);color:var(--ink);background:#fff}
+h2{font-size:22px;font-weight:800;color:var(--navy);margin:28px 0 10px}
+.goal{background:#FFF6DA;border:1px solid #F6DE9B;border-radius:14px;padding:14px 16px;font-size:17px;font-weight:600;color:var(--navy)}
+.goal em{font-style:normal;color:var(--pink)}
+ol.setup{padding-left:22px;font-size:16px}ol.setup li{margin-bottom:4px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.step b.n{display:inline-flex;width:28px;height:28px;border-radius:50%;color:#fff;align-items:center;justify-content:center;font-size:14px;margin-bottom:4px}
+.step h3{font-size:17px;color:var(--navy)}
+.step p{font-size:15px}
+.keys{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:12px}
+.key{border-radius:14px;padding:12px 16px;font-size:15px}
+.key.g{background:#F3ECFF;border:1px solid #D9C8FF}.key.g b{color:#7B3FD0}
+.key.f{background:#E7F7EE;border:1px solid #A9E3C3}.key.f b{color:#137A47}
+.sp{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.sp div{background:#fff;border:1px solid var(--line);border-left:6px solid var(--c);border-radius:12px;padding:10px 14px;font-size:15px}
+.sp b{display:block;font-family:Fredoka,Kanit,sans-serif;font-size:17px;color:var(--navy)}
+.note{font-size:14px;color:var(--mute);margin-top:22px;border-left:4px solid var(--line);padding-left:12px}
+footer{background:var(--navy);color:#C9D6F5;font-size:13px;padding:18px 16px;text-align:center}
+footer b{color:#FFD873}
+footer a{color:#FFD873}
+@media (max-width:520px){h1{font-size:30px}.hero .cover{width:88px}.hero .in{gap:14px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="in">
+<a href="../"><img src="../assets/logo-horizontal-dark.png" alt="เล่นแล้วรู้ · Play Then Learn"></a>
+<nav><a href="../">เกมทั้งหมด</a><a class="sw" href="en/" hreflang="en">English</a></nav>
+</div></header>
+
+<section class="hero"><div class="in">
+<img class="cover" src="../assets/connectmultiply-cover.jpg" alt="Connect Multiply box">
+<div>
+<div class="kicker">วิธีเล่น · HOW TO PLAY</div>
+<h1>Connect Multiply</h1>
+<div class="sub">เกมต่อแถวด้วยสูตรคูณ</div>
+<div class="by">ออกแบบโดย <b>แบมแบม</b></div>
+<div class="chips"><span class="chip">2–4 คน</span><span class="chip">อายุ 7 ปีขึ้นไป</span><span class="chip">สูตรคูณ 1–12</span></div>
+</div>
+</div></section>
+
+<main>
+<div class="video">
+<iframe src="https://www.youtube-nocookie.com/embed/biTdNnNw-AY?rel=0" title="Connect Multiply – วิธีเล่น · HOW TO PLAY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class="actions">
+<a class="btn primary" href="../assets/connectmultiply-rules-th.pdf" download>ดาวน์โหลดคู่มือ (PDF)</a>
+<a class="btn ghost" href="../assets/connectmultiply-rulebook-full.pdf" download>คู่มือฉบับเต็ม + เบื้องหลังการออกแบบ</a>
+<a class="btn ghost" href="https://youtu.be/biTdNnNw-AY" target="_blank" rel="noopener">เปิดใน YouTube</a>
+</div>
+
+<h2>เป้าหมาย</h2>
+<div class="goal">คูณการ์ดในมือให้ได้ตัวเลขบนกระดาน วางชิป แล้วเรียงให้ได้ <em>5 ช่องติดกัน</em> (ตั้ง นอน หรือทแยง) หรือเก็บ <em>เพชรครบ 5 ชิ้น</em> ก่อน ชนะ!</div>
+
+<h2>เตรียมเกม</h2>
+<ol class="setup"><li>วางกระดานไว้ตรงกลาง</li><li>ผู้เล่นเลือกชิปคนละ 1 สี (20 ชิ้น)</li><li>สับการ์ดทั้งหมด แจกคนละ 5 ใบ ที่เหลือเป็นกองจั่ว</li><li>วางโทเคนเพชรไว้ตรงกลางที่ทุกคนหยิบได้</li><li>คนที่เพิ่งทำโจทย์คณิตศาสตร์ล่าสุดเริ่มก่อน</li></ol>
+
+<h2>ในแต่ละตา</h2>
+<div class="steps"><div class="step"><b class="n" style="background:#F05A8C">1</b><h3>ทางเลือก 1 · คูณการ์ด</h3><p>คูณการ์ดในมือตั้งแต่ 2 ใบขึ้นไป แล้ววางชิปบนช่องที่ตรงกับผลคูณ เช่น 3 × 4 = 12</p></div><div class="step"><b class="n" style="background:#22A9D6">2</b><h3>หรือ ทางเลือก 2 · ทิ้งการ์ด</h3><p>ทิ้งการ์ดในมือ 1–5 ใบลงกองทิ้ง</p></div><div class="step"><b class="n" style="background:#3BBF7A">3</b><h3>จบตา · จั่วให้ครบ</h3><p>จบตา จั่วการ์ดจากกองจั่วให้ในมือครบ 5 ใบ</p></div></div>
+<div class="keys"><div class="key g"><b>ช่องเพชร</b> วางชิปลงช่องที่มีรูปเพชร หยิบเพชร 1 ชิ้น</div><div class="key f"><b>ช่อง FREE</b> ถ้ามีชิปของเราอยู่ติดช่องนี้ นับเป็นช่องของเราได้ 1 ช่อง</div></div>
+
+<h2>การ์ดพิเศษ (ใช้ได้ตาละ 1 ใบ · อย่างละ 5 ใบ)</h2>
+<div class="sp"><div style="--c:#F2B705"><b>Any number 1–12</b>ใช้แทนเลขอะไรก็ได้ 1–12 คู่กับการ์ดตัวเลข</div><div style="--c:#F05A8C"><b>Kick off!!</b>หยิบชิปของคนอื่นออก 1 ตัว ถ้าเป็นช่องเพชร เจ้าของต้องคืนเพชร 1 ชิ้น</div><div style="--c:#22A9D6"><b>Swap Cards</b>สลับการ์ดทั้งมือกับผู้เล่นอีกคน</div><div style="--c:#3BBF7A"><b>Clean your hand</b>เลือกผู้เล่น 1 คน ทิ้งการ์ดทั้งมือแล้วจั่วใหม่ 5 ใบ</div></div>
+
+<p class="note">มีโหมดเด็กเล็ก (Family/Junior) และโหมดผู้เล่นชำนาญในคู่มือฉบับเต็ม ปรับจำนวนการ์ดพิเศษได้ตามผู้เล่น</p>
+</main>
+
+<footer><b>เล่นแล้วรู้ · Play Then Learn</b> — บอร์ดเกมทำมือแนว Edutainment · Connect Multiply ออกแบบโดย BamBam<br>
+<a href="https://www.facebook.com/PlayThenLearnTH/" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.youtube.com/@PlayThenLearn" target="_blank" rel="noopener">YouTube</a></footer>
+</body>
+</html>

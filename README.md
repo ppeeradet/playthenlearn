@@ -4,6 +4,7 @@
 
 เว็บไซต์ (GitHub Pages): https://ppeeradet.github.io/playthenlearn/
 
+- `/connectmultiply/` (ไทย) และ `/connectmultiply/en/` (English) — วิธีเล่น Connect Multiply: คลิป YouTube 2 ภาษา, คู่มือ PDF (ปลายทาง QR บนคู่มือ ห้ามเปลี่ยน path)
 - `/backintime/` — วิธีเล่น Back in Time: คลิป YouTube, คู่มือ PDF, สรุปกติกา (ปลายทางของ QR บนคู่มือ ห้ามเปลี่ยน path)
 - `assets/` — โลโก้, ภาพปก, คู่มือ PDF
 
